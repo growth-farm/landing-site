@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import vercelSvg from '../public/vercel.svg'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -27,12 +28,13 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               By{' '}
-              <img
-                src="/vercel.svg"
+              <Image
+                src={vercelSvg}
                 alt="Vercel Logo"
                 className={styles.vercelLogo}
                 width={100}
                 height={24}
+                priority
               />
             </a>
           </div>
