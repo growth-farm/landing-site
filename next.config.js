@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/landing-site'
+  images: {
+    loader: "akamai",
+    path: "/",
+  },
 }
 
 module.exports = nextConfig
