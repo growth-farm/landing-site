@@ -1,7 +1,7 @@
 export function Logo(props) {
   return (
     <>
-    <div class="flex items-center ">
+    <div className="flex items-center ">
       
       <svg   aria-hidden="true" viewBox="0 0 50 45" {...props}>
         <path
@@ -12,7 +12,7 @@ export function Logo(props) {
         />
         
       </svg>
-     <span class="">Growth Farm</span>
+     <span >Growth Farm</span>
     </div>
     </>
   )
