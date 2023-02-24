@@ -81,9 +81,9 @@ function QuoteIcon(props) {
 export function Testimonials() {
   return (
     <section
-      id="testimonials"
-      aria-label="What our customers are saying"
-      className="bg-slate-50 py-20 sm:py-32"
+      id="process"
+      aria-label="What our process looks like"
+      className="bg-slate-50  sm:py-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">

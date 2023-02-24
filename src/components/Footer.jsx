@@ -12,9 +12,9 @@ export function Footer() {
           
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href="#services">Our Services</NavLink>
+              <NavLink href="#process">Our Process</NavLink>
+        
             </div>
           </nav>
         </div>
