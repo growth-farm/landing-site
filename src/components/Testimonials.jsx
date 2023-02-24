@@ -11,18 +11,18 @@ const testimonials = [
   [
     {
       content:
-        'Growth Farm is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'We start by understanding your business goals, objectives, and pain points. We also assess your current technology stack and identify areas for improvement, including the potential for AI solutions.',
       author: {
-        name: 'Sheryl Berge',
+        name: 'Discovery',
         role: 'CEO at Lynch LLC',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'Based on our discovery, we develop a customized strategy that leverages AI and other technologies to help you achieve your business goals. This includes a detailed roadmap that outlines the steps we will take to get there.',
       author: {
-        name: 'Amy Hahn',
+        name: 'Strategy',
         role: 'Director at Velocity Industries',
         image: avatarImage4,
       },
@@ -31,18 +31,18 @@ const testimonials = [
   [
     {
       content:
-        'The best part about Growth Farm is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        'Our team of experienced developers and data scientists work together to create high-quality AI solutions that meet your specific needs. We use proven methodologies and best practices to ensure the highest quality and efficiency.',
       author: {
-        name: 'Leland Kiehn',
+        name: 'Development',
         role: 'Founder of Kiehn and Sons',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with Growth Farm. Suspicious but I can’t say I don’t love it.',
+        'We work closely with you to integrate our solutions into your existing systems and processes. We also provide training and support to ensure a smooth transition.',
       author: {
-        name: 'Erin Powlowski',
+        name: 'Implementation',
         role: 'COO at Armstrong Inc',
         image: avatarImage2,
       },
@@ -51,18 +51,18 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with Growth Farm I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'We dont just set it and forget it. We continuously monitor and improve our AI solutions to ensure they are delivering the expected results. We also keep you informed of our progress and provide regular updates.',
       author: {
-        name: 'Peter Renolds',
+        name: 'Continuous Improvement',
         role: 'Founder of West Inc',
         image: avatarImage3,
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        'We work closely with you to integrate our solutions into your existing systems and processes. We also provide training and support to ensure a smooth transition.',
       author: {
-        name: 'Amy Hahn',
+        name: 'Implementation',
         role: 'Director at Velocity Industries',
         image: avatarImage4,
       },
@@ -88,12 +88,10 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Our Process.
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+          <p className="mt-4 text-lg tracking-tight text-slate-700 text-justify">
+          We combine our expertise in these areas with a deep understanding of your business needs to deliver custom solutions that help you achieve your specific goals. Whether you're looking to improve customer engagement, optimize operations, streamline workflows, or increase your online visibility, we have the knowledge and experience to help you succeed. Contact us today to learn more about how we can help your business grow and thrive.
           </p>
         </div>
         <ul
@@ -117,19 +115,8 @@ export function Testimonials() {
                           <div className="font-display text-base text-slate-900">
                             {testimonial.author.name}
                           </div>
-                          <div className="mt-1 text-sm text-slate-500">
-                            {testimonial.author.role}
-                          </div>
                         </div>
-                        <div className="overflow-hidden rounded-full bg-slate-50">
-                          <Image
-                            className="h-14 w-14 object-cover"
-                            src={testimonial.author.image}
-                            alt=""
-                            width={56}
-                            height={56}
-                          />
-                        </div>
+                        
                       </figcaption>
                     </figure>
                   </li>
