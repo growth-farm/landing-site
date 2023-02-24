@@ -91,7 +91,7 @@ export function Testimonials() {
             Our Process.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700 text-justify">
-          We combine our expertise in these areas with a deep understanding of your business needs to deliver custom solutions that help you achieve your specific goals. Whether you're looking to improve customer engagement, optimize operations, streamline workflows, or increase your online visibility, we have the knowledge and experience to help you succeed. Contact us today to learn more about how we can help your business grow and thrive.
+          We combine our expertise in these areas with a deep understanding of your business needs to deliver custom solutions that help you achieve your specific goals. Whether you are looking to improve customer engagement, optimize operations, streamline workflows, or increase your online visibility, we have the knowledge and experience to help you succeed. Contact us today to learn more about how we can help your business grow and thrive.
           </p>
         </div>
         <ul
