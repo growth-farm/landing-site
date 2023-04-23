@@ -11,7 +11,7 @@ export const Possibilities = () => {
             <Parallax offset={80}>
                 <div>
                     <div className="text-4xl md:text-2xl md:p-8 md:text-center pb-4 font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500 ">The possibilities are<br className="md:hidden" /> beyond your imagination</div>
-                    <div className="text-[#81AFDD] max-w-[30vw] md:pl-8 md:text-sm">
+                    <div className="text-[#81AFDD] md:text-center max-w-[30vw] md:max-w-[98vw] md:pl-8 md:text-sm">
                     GrowthFarm's AI-powered SEO sorcery! Reach out to us today and let's embark on an epic journey towards exceptional organic growth!
                     </div>
                     <div className="text-[#FF8A71] mt-12 cursor-pointer md:text-center">Get in touch with an AI Expert</div>

@@ -13,7 +13,9 @@ export const Footer = () => {
                 </div>
                 <div className="m-auto w-64 md:w-48 text-center md:mt-8 p-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-xl cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                     <div className="bg-[#031B34] p-2 md:text-sm rounded-xl md:text-sm">
+                        <a target="_blank" href="https://calendly.com/growthfarm42/30min">
                         Talk to an Expert
+                        </a>
                     </div>
                 </div>
                 <div className="mt-20 flex flex-wrap justify-around pb-8">

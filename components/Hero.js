@@ -9,20 +9,22 @@ export const Hero = () => {
       <div className="flex justify-center items-center px-16 py-6 md:pb-0 md:pt-4">
         <Parallax spring={true}>
           <div className="mr-10 pt-16 md:text-center md:mx-2 md:px-10 md:mb-8">
-            <h1 className="pb-16 font-bold text-5xl md:text-[40px] max-w-[830px] md:pb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500 ">
-            Welcome to GrowthFarm.co -  <br className="md:hidden" />
-            Unleashing the power of AI for your organic Growth
+            <h1 className="pb-14 font-bold text-6xl md:text-[35px] max-w-[51vw] md:max-w-[98vw] md:pb-10 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500 ">
+            Unleash Your Organic Growth with AI
             </h1>
-            <p className="pb-8 text-sm text-[#81AFDD] md:mb-4 max-w-[830px]">
-            At GrowthFarm, we're not just any SEO agency - we're pioneers on a mission to revolutionize the game! By harnessing the power of artificial intelligence and our unmatched expertise in search engine optimization, we help your business soar to new heights in organic growth. Our squad of SEO wizards has a proven track record in driving traffic from 0 to a whopping 100M+ monthly visits across diverse industries like edtech, healthtech, and more.
+            <p className="pb-4 text-sm text-[#81AFDD] md:mb-4 max-w-[51vw] md:max-w-[95vw]">
+            GrowthFarm is a leading SEO agency that uses artificial intelligence and expertise to drive organic growth. With a track record of success in industries such as edtech and healthtech, our team can take your business from 0 to over 100M monthly visits.
             </p>
             <div className="flex items-center md:justify-center">
               <input
                 className="outline-none w-[30vw] md:w-[50vw] h-14 md:h-12 bg-[#052D56] placeholder-[#3D6184] pl-4 rounded-l-sm"
                 placeholder="Your Email Address"
               />
+              
               <div className="bg-[#FF4820] w-36 text-center h-14 md:h-12 pt-4 md:pt-3 rounded-r-sm cursor-pointer">
+                <a target="_blank" href="https://calendly.com/growthfarm42/30min">
                 Get in touch
+                </a>
               </div>
             </div>
             <div className="flex pt-4 md:pt-8 items-center">
@@ -31,7 +33,7 @@ export const Hero = () => {
               <div className="bg-[#81AFDD] h-10 w-10 md:w-16 rounded-full ml-[-10px]"></div>
               <div className="bg-[#81AFDD] h-10 w-10 md:w-16 rounded-full ml-[-10px]"></div>
               <p className="ml-2 text-sm md:text-xs">
-                1,600+ Product Leaders have requested to get on a call in the
+                1000+ Marketing Leaders have requested to get on a call in the
                 last 1 week
               </p>
             </div>
@@ -49,28 +51,41 @@ export const Hero = () => {
           </div>
         </Parallax>
       </div>
-      <div className="flex justify-center md:flex-wrap">
+      <div className="flex justify-center md:flex-wrap mt-4">
         <Image
           className="mx-8 md:m-3"
-          src="/google.svg"
-          width={80}
-          height={80}
+          src="/LOGOS/byjus.svg"
+          width={130}
+          height={130}
+        />
+          <Image
+            className="mx-8 md:m-3"
+            src="/LOGOS/toppr.svg"
+            width={75}
+            height={75}
+          />
+          <Image
+            className="mx-8 md:m-3"
+            src="/LOGOS/medscape.svg"
+            width={120}
+            height={120}
+          />
+          <Image
+            className="mx-8 md:m-3"
+            src="/LOGOS/tata-1mg.svg"
+            width={100}
+            height={100}
+          />
+        <Image
+          className="mx-8 md:m-3 mb-6 md:mt-[-10px]"
+          src="/LOGOS/infinity-learn.png"
+          width={100}
+          height={100}
+
         />
         <Image
           className="mx-8 md:m-3"
-          src="/slack.svg"
-          width={90}
-          height={90}
-        />
-        <Image
-          className="mx-8 md:m-3"
-          src="/dropbox.svg"
-          width={120}
-          height={120}
-        />
-        <Image
-          className="mx-8 md:m-3"
-          src="/shopify.svg"
+          src="/LOGOS/webmd.svg"
           width={100}
           height={100}
         />
