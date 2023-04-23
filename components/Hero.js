@@ -6,7 +6,6 @@ import { Particle } from "./Particles";
 export const Hero = () => {
   return (
     <div>
-<<<<<<< HEAD
       <div className="flex justify-center items-center px-16 py-6 md:pb-0 md:pt-4">
         <Parallax spring={true}>
           <div className="mr-10 pt-16 md:text-center md:mx-2 md:px-10 md:mb-8">
@@ -16,20 +15,6 @@ export const Hero = () => {
             </h1>
             <p className="pb-8 text-sm text-[#81AFDD] md:mb-4 max-w-[830px]">
             At GrowthFarm, we're not just any SEO agency - we're pioneers on a mission to revolutionize the game! By harnessing the power of artificial intelligence and our unmatched expertise in search engine optimization, we help your business soar to new heights in organic growth. Our squad of SEO wizards has a proven track record in driving traffic from 0 to a whopping 100M+ monthly visits across diverse industries like edtech, healthtech, and more.
-=======
-      <div className="flex justify-center items-center pb-16 md:pb-0 md:pt-4">
-        <Parallax spring={true}>
-          <div className="mr-24 pt-16 md:text-center md:mx-2 md:px-10 md:mb-8">
-            <h1 className="pb-16 font-bold text-6xl md:text-[40px] md:pb-16 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500 ">
-              Unlock the power of <br className="md:hidden" />
-              AI for your business
-            </h1>
-            <p className="pb-8 text-sm text-[#81AFDD] md:mb-4">
-              Transform your business with AI & Technology services from
-              GrowthFarm. From improving demand
-              <br /> generation to automating business processes, we deliver
-              custom solutions that drive real results.
->>>>>>> 6fc15ec81460292b23222c0a03cf80fc79cbea55
             </p>
             <div className="flex items-center md:justify-center">
               <input
@@ -58,13 +43,8 @@ export const Hero = () => {
             <Image
               className="relative"
               src="/face.svg"
-<<<<<<< HEAD
               width={420}
               height={420}
-=======
-              width={490}
-              height={490}
->>>>>>> 6fc15ec81460292b23222c0a03cf80fc79cbea55
             />
           </div>
         </Parallax>
