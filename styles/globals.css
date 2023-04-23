@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400&family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto:wght@300;400&family=Space+Mono:ital@1&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+
+
+}
+
+body {
+  background-color: #040C18;
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
