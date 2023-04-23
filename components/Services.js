@@ -6,7 +6,11 @@ const Service = ({ header, information }) => {
     <div className="flex-[33%] m-4 md:m-1 md:p-1">
       <div className="flex flex-col">
         <div style={{ background: "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)" }} className="bg-[red] h-[3px] w-12 mb-2 md:w-8"></div>
+<<<<<<< HEAD
         <h2 className="text-xl font-semibold pb-4 md:text-sm">{header}</h2>
+=======
+        <h2 className="text-2xl font-semibold pb-4 md:text-sm">{header}</h2>
+>>>>>>> 6fc15ec81460292b23222c0a03cf80fc79cbea55
       </div>
       <div className="text-sm text-[#81AFDD] md:hidden">{information}</div>
     </div>
@@ -27,12 +31,21 @@ export const Services = () => {
           </div>
           <div className='flex justify-between mt-36 md:mt-24'>
             <Service
+<<<<<<< HEAD
               header={"Traffic Boosting Rocket Fuel"}
               information={"Whether you're a startup or an industry titan, we've got you covered. We've grown traffic from 0 to 3M monthly (Infinity Learn), skyrocketed it from 3M to 100M monthly (Byjus, Toppr, 1mg), and sustained it at 100M and above (WebMD)."}
             />
             <Service
               header={"Conversion Rate Sorcery"}
               information={"Our AI-driven enchantments have conjured average traffic-to-lead conversion rates of 1.5% in edtech and 3% in healthtech."}
+=======
+              header={"AI For Organic Growth"}
+              information={"Automate your SEO Growth"}
+            />
+            <Service
+              header={"Chatbot"}
+              information={"We help you bring state-of-the-art AI into \n production to benefit your customers."}
+>>>>>>> 6fc15ec81460292b23222c0a03cf80fc79cbea55
             />
             <Service
               header={"Data as a Service"}
